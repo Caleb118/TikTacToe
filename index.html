@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <head>
+        <title>Tik Tac Toe</title>
+        <link rel="stylesheet" type="text/css" href="style.css?2122221111213412111112242">
+        <link rel="shortcut icon" href="Images/x.png" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div id="popup" class="test">
+            <a id="ptext">You win!</a> <br /> 
+            <button class="button" value="Refresh Page" onClick="window.location.reload();">PLAY AGAIN</button>
+        </div>
+
+        <center><h1>Tik Tac Toe</h1></center>
+        
+        <div class="wrapper">
+                <table width="100%" border="0px" style="margin: 0px;">
+                    <tr>
+                        <td>
+                            <div id="topleft" class="box" onclick='GoPlay(vTopLeft, 1)'></div>
+                        </td>
+                        <td>
+                            <div id="topcenter" class="box" onclick='GoPlay(vTopCenter, 2)'></div>
+                        </td>
+                        <td>
+                            <div id="topright" class="box" onclick='GoPlay(vTopRight, 3)'></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="middleleft" class="box" onclick='GoPlay(vMiddleLeft, 4)'></div>
+                        </td>
+                        <td>
+                            <div id="middlecenter" class="box" onclick='GoPlay(vMiddleCenter, 5)'></div>
+                        </td>
+                        <td>
+                            <div id="middleright" class="box" onclick='GoPlay(vMiddleRight, 6)'></div>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div id="bottomleft" class="box" onclick='GoPlay(vBottomLeft, 7)'></div>
+                        </td>
+                        <td>
+                            <div id="bottomcenter" class="box" onclick='GoPlay(vBottomCenter, 8)'></div>
+                        </td>
+                        <td>
+                            <div id="bottomright" class="box" onclick='GoPlay(vBottomRight, 9)'></div>
+                        </td>
+                    </tr>
+    
+    
+    
+                </table>
+                
+                
+                
+    
+            </div>
+    </body>
